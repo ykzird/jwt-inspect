@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment
+.env
+.env.*
+
+# Test coverage
+coverage/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,23 @@
+# The "files" field in package.json already whitelists dist/ and LICENSE.
+# This file acts as a secondary safety net.
+
+# Source — consumers get compiled dist/ only
+src/
+
+# Tests and test config
+**/*.test.ts
+vitest.config.ts
+coverage/
+
+# TypeScript project config (not needed at runtime)
+tsconfig.json
+tsconfig*.json
+
+# Dev dependencies config
+.env
+.env.*
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
