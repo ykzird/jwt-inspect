@@ -1,4 +1,4 @@
-# @ykzird/jwt-inspect
+<div style="text-align: center"><img src="https://cdn.ykzird.cloud/jwt-inspect.svg" alt="jwt-inspect"/></div>
 
 Decode and security-audit JWT tokens from the command line or from your own code.
 
