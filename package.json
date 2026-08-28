@@ -1,6 +1,6 @@
 {
   "name": "@ykzird/jwt-inspect",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI tool and library for decoding and security-auditing JWT tokens",
   "license": "MIT",
   "author": "ykzird",
