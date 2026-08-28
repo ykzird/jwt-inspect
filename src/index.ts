@@ -9,7 +9,7 @@ const program = new Command();
 program
   .name("jwt-inspect")
   .description("Decode and audit JWT tokens")
-  .version("1.0.0")
+  .version("1.0.2")
   .argument("<token>", "JWT token to inspect")
   .option("--audit", "show security audit (algorithm strength, expiry, claims coverage)", false)
   .option("--format <fmt>", "output format: text or json", "text")
